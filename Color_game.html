@@ -1,0 +1,53 @@
+<!-- //HTML for Color Guess Game (Udemy Course Practice Project) -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		A simple RGB Color Game
+	</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
+	<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:600" rel="stylesheet">
+</head>
+<body>
+	<div class="jumbotron" align="center">
+		<div class="container" id="head">
+			<p>
+				<h1 align="center" class="txt">
+					The Great
+				</h1>
+			</p>
+			<p>
+				<h2 align="center" class="txt_str">
+					<strong><span id="colorDisp"></span></strong>
+				</h2>
+			</p>
+			<p>
+				<h1 align="center" class="txt">
+					Color Guessing Game
+				</h1>				
+			</p>
+		</div>
+	</div>
+	<div class="container" align="center" id="dashBoard">
+		<strong><span id="result" class="display-4"></span></strong>
+		<span>
+			<div align="right">
+				<strong><button type="button" class="btn btn-primary btn-lg"><span id="playAgain">New Colors</span></button></strong>
+			</div>
+		</span>
+	</div>
+	<div id="container" align="left">
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+		<div class="square"></div>
+	</div>
+	<script type="text/javascript" src="colorGame.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"
+	  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	  crossorigin="anonymous"></script>
+</body>
+</html>

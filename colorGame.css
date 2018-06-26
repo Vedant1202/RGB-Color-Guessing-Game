@@ -1,0 +1,33 @@
+/*CSS Style Sheet for Color Guess Game (Udemy Course Practice Project)*/
+body {
+	background-color: #474747;
+}
+.square{
+	width: 30%;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	background-color: #24AFDA;
+	float: left;
+}
+#container{
+	margin: 0 auto;
+	width: 60%;
+} 
+.jumbotron{
+	background-color: #F27A3A;
+	margin: 0, auto;
+	color: white;
+}
+#head{
+	font-family: "Encode Sans Condensed", sans-seriff;
+}
+#colorDisp{
+	font-family: "Encode Sans Condensed", sans-seriff;
+}
+#result{
+	color: #F27A3A;
+}
+#dashBoard{
+	background-color: #afafaf;
+	width: cover;
+}
